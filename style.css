@@ -184,6 +184,8 @@
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
+  background-color: white;
+  color: #333;
 }
 
 .booking-form input[type="date"] {
