@@ -186,6 +186,14 @@
   border-radius: 8px;
 }
 
+.booking-form input[type="date"] {
+  color: #555;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  min-width: 150px;
+}
+
 .booking-btn {
   background: #e85d04;
   color: white;
@@ -286,6 +294,10 @@ html {
   .contact h2 {
     font-size: 30px;
   }
+  .booking-form input[type="date"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 
 .booking-message {
@@ -293,4 +305,4 @@ html {
   text-align: center;
   margin-top: 15px;
   font-weight: bold;
-  }
+}
